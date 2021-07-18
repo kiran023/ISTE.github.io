@@ -1,0 +1,282 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;  
+}
+
+#sec1{
+    background-color: rgb(5, 85, 85);
+    height: 80vh;
+    width: 100vw;
+}
+
+.nav {
+display: flex;
+}
+
+.nav ul{
+  display: flex;
+    list-style-type: none;
+    margin-top: 27px;
+}
+
+.nav h2{
+      color: white;
+      margin-left: 100px;
+}
+
+
+
+.nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    margin: 20px;
+   
+}
+
+#contact{
+    margin-left: 50vw;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+
+.main{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 45px;
+    align-items: center;
+}
+
+.main div h1{
+    margin: 0px;
+}
+
+#box1{
+    margin: 25px;
+    padding: 20px;
+    font-size: 3rem;
+    color: white;
+    
+}
+
+#box1 span{
+    color: rgb(250, 126, 117); 
+}
+
+#box2{
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    color: white;
+}
+
+
+#box2 span{
+    display: block;
+    margin: 1px;
+}
+
+
+/*
+
+#semi_circle{
+        margin-left: 900px;
+            width: 200px;
+            height: 100px; 
+            background-color: rgb(5, 74, 85);
+            border-top-left-radius: 110px;  
+            border-top-right-radius: 110px; 
+            border: 10px solid rgb(233, 69, 69);
+            border-bottom: 0;
+        
+    }
+    
+     #bottom_design {
+        
+            position: absolute;
+            top: 71.5%;
+            left: 68%;
+            transform: translate(-50%, -50%);
+            height: 105px;
+            width: 182px;
+            border-radius: 150px 150px 0 0;
+            background-color: rgb(15, 98, 110);  
+            
+                  
+    }
+
+*/
+
+#sec2{
+    display: flex;
+    background-color: rgb(1, 58, 58);
+    height: 80vh;
+    width: 100vw;
+  
+}
+#main2{
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top:150px ;
+    margin-left: 100px;
+} 
+
+aside {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+#main2 h1{
+    color: white;
+    margin: 0px ;
+    font-size: 2.5rem;
+}
+
+aside div span{
+    display: flex;
+    color: white;
+}
+aside div h3{
+    display: flex;
+    color: rgb(250, 126, 117) ;
+} 
+
+#a1, #a2, #a3{
+    display: flex;
+}
+
+.img
+{
+    padding: 5px;
+    margin: 20px;
+}
+/* section-3 */
+
+#sec3{
+   color: white;
+    background-color: rgb(5, 85, 85);
+    height: 90vh;
+    width: 100vw;
+}
+
+#main3{
+    display: flex;
+}
+
+#sec3 h1{
+    margin: 0px;
+    font-size: 2.5rem;
+}
+#h2 span{
+    color: rgb(11, 156, 156);
+}
+
+#headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+
+}
+
+.container{
+    height: 40%;
+    padding: 29px;
+    margin: 12px;
+    text-align: center;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+#sec4{
+    background-color: rgb(250, 126, 117);
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+}
+#sec4 a {
+    text-decoration: none;
+    border: 2px solid rgb(5, 85, 85);
+    margin-left: 24vw;
+font-size: 1rem;
+    padding: 8px;
+    border-radius: 15px;
+    color:rgb(5, 85, 85) ;
+    text-align: center;
+    
+}
+
+#sec4 div{
+    height: 34px;
+display: flex;
+justify-content: center;
+margin-top: 78px;
+
+}
+
+#sec4 h1{
+    margin: 0px;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    font-size: 2.5rem;
+    color: rgb(5, 85, 85);
+}
+
+/*footer*/
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+#footer div span {
+    display: flex;
+}
+#footer div h3 {
+   text-align: center;
+}
+
+#footer div span li {
+    list-style-type: none; 
+    margin: 10px;
+}
+
+#footer div span li a{
+    text-decoration: none;
+    color: white;
+}
+
+#add
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.last{
+    margin: 30px;
+
+}
+
+#social{
+    display: flex;
+}
+#social img{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+}
